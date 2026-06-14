@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Task Dashboard</h1>
+
+<h2>Add Task</h2>
+
+<input type="text" id="title" placeholder="Task Title">
+
+<textarea id="description" placeholder="Task Description"></textarea>
+
+<input type="date" id="dueDate">
+
+<select id="status">
+    <option>Pending</option>
+    <option>Completed</option>
+</select>
+
+<button onclick="addTask()">Add Task</button>
+
+<hr>
+
+<h2>Tasks</h2>
+
+<div id="taskList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
